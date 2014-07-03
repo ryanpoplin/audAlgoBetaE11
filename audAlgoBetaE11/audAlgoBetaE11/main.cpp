@@ -1,3 +1,5 @@
+
+
 //
 //  main.cpp
 //  audAlgoBetaE11
@@ -16,19 +18,25 @@ int euclidAlgo(int p, int q)
     // 4.) if any one int is == to 0, than the other value of course will be divisible by itself...
     if (q == 0) return p;
     // 5.) else, p / q and return the remainder takes place...
+    // below means 16 divided by 27...
+    // it can go into it once with a remainder of 11...
+    //...27/16=1...
     int r = p % q;
     // a recursion...
     printf("q is %d, and r is %d...\n", q, r);
-    printf("%d\n", euclidAlgo(q, r));
+    // this will keep invoking until the above condition stops it from happening...
+    // printf("Here's the G.C.D. %d...\n", euclidAlgo(q, r));
     //...
-    return 0;
-    // return euclidAlgo(q, r);
+    // return EXIT_SUCCESS;
+    return euclidAlgo(q, r);
 }
 
 int main(int argc, const char * argv[])
 {
     // insert code here...
     // std::cout << "Hello, World!\n";
-    euclidAlgo(3, 40);
+    // euclidAlgo(3, 40);
+    euclidAlgo(40, 3);
     return 0;
 }
+
