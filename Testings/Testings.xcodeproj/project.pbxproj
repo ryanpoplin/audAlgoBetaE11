@@ -19,6 +19,8 @@
 		5AA60EA6196620A100000BF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA60E8E196620A100000BF0 /* UIKit.framework */; };
 		5AA60EAE196620A200000BF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AA60EAC196620A200000BF0 /* InfoPlist.strings */; };
 		5AA60EB0196620A200000BF0 /* TestingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA60EAF196620A200000BF0 /* TestingsTests.m */; };
+		5AA60EBC19666F3F00000BF0 /* ECTQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA60EBA19666F3F00000BF0 /* ECTQuizViewController.m */; };
+		5AA60EBD19666F3F00000BF0 /* ECTQuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AA60EBB19666F3F00000BF0 /* ECTQuizViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		5AA60EAB196620A200000BF0 /* TestingsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestingsTests-Info.plist"; sourceTree = "<group>"; };
 		5AA60EAD196620A200000BF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5AA60EAF196620A200000BF0 /* TestingsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestingsTests.m; sourceTree = "<group>"; };
+		5AA60EB919666F3F00000BF0 /* ECTQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECTQuizViewController.h; sourceTree = "<group>"; };
+		5AA60EBA19666F3F00000BF0 /* ECTQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECTQuizViewController.m; sourceTree = "<group>"; };
+		5AA60EBB19666F3F00000BF0 /* ECTQuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ECTQuizViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,7 @@
 			children = (
 				5AA60E99196620A100000BF0 /* ECTAppDelegate.h */,
 				5AA60E9A196620A100000BF0 /* ECTAppDelegate.m */,
+				5AA60EBE19666F4900000BF0 /* ViewControllers */,
 				5AA60E9C196620A100000BF0 /* Images.xcassets */,
 				5AA60E91196620A100000BF0 /* Supporting Files */,
 			);
@@ -142,6 +148,16 @@
 				5AA60EAC196620A200000BF0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AA60EBE19666F4900000BF0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5AA60EB919666F3F00000BF0 /* ECTQuizViewController.h */,
+				5AA60EBA19666F3F00000BF0 /* ECTQuizViewController.m */,
+				5AA60EBB19666F3F00000BF0 /* ECTQuizViewController.xib */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AA60E95196620A100000BF0 /* InfoPlist.strings in Resources */,
+				5AA60EBD19666F3F00000BF0 /* ECTQuizViewController.xib in Resources */,
 				5AA60E9D196620A100000BF0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AA60E97196620A100000BF0 /* main.m in Sources */,
+				5AA60EBC19666F3F00000BF0 /* ECTQuizViewController.m in Sources */,
 				5AA60E9B196620A100000BF0 /* ECTAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
