@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A6ED9AA196D875200EC4C8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A6ED9A9196D875100EC4C8B /* Foundation.framework */; };
+		5A6ED9AC196D875200EC4C8B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A6ED9AB196D875200EC4C8B /* CoreGraphics.framework */; };
+		5A6ED9AE196D875200EC4C8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A6ED9AD196D875200EC4C8B /* UIKit.framework */; };
+		5A6ED9B4196D875200EC4C8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A6ED9B2196D875200EC4C8B /* InfoPlist.strings */; };
+		5A6ED9B6196D875200EC4C8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6ED9B5196D875200EC4C8B /* main.m */; };
+		5A6ED9BA196D875200EC4C8B /* ECTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6ED9B9196D875200EC4C8B /* ECTAppDelegate.m */; };
+		5A6ED9BC196D875200EC4C8B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A6ED9BB196D875200EC4C8B /* Images.xcassets */; };
+		5A6ED9C3196D875200EC4C8B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A6ED9C2196D875200EC4C8B /* XCTest.framework */; };
+		5A6ED9C4196D875200EC4C8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A6ED9A9196D875100EC4C8B /* Foundation.framework */; };
+		5A6ED9C5196D875200EC4C8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A6ED9AD196D875200EC4C8B /* UIKit.framework */; };
+		5A6ED9CD196D875200EC4C8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A6ED9CB196D875200EC4C8B /* InfoPlist.strings */; };
+		5A6ED9CF196D875200EC4C8B /* Color_CountdownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6ED9CE196D875200EC4C8B /* Color_CountdownTests.m */; };
+		5A6ED9DA196DB74D00EC4C8B /* ECTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6ED9D9196DB74D00EC4C8B /* ECTViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A6ED9C6196D875200EC4C8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A6ED99E196D875100EC4C8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A6ED9A5196D875100EC4C8B;
+			remoteInfo = "Color Countdown";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A6ED9A6196D875100EC4C8B /* Color Countdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Countdown.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A6ED9A9196D875100EC4C8B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5A6ED9AB196D875200EC4C8B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5A6ED9AD196D875200EC4C8B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5A6ED9B1196D875200EC4C8B /* Color Countdown-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Color Countdown-Info.plist"; sourceTree = "<group>"; };
+		5A6ED9B3196D875200EC4C8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5A6ED9B5196D875200EC4C8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A6ED9B7196D875200EC4C8B /* Color Countdown-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Color Countdown-Prefix.pch"; sourceTree = "<group>"; };
+		5A6ED9B8196D875200EC4C8B /* ECTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECTAppDelegate.h; sourceTree = "<group>"; };
+		5A6ED9B9196D875200EC4C8B /* ECTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECTAppDelegate.m; sourceTree = "<group>"; };
+		5A6ED9BB196D875200EC4C8B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5A6ED9C1196D875200EC4C8B /* Color CountdownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Color CountdownTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A6ED9C2196D875200EC4C8B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5A6ED9CA196D875200EC4C8B /* Color CountdownTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Color CountdownTests-Info.plist"; sourceTree = "<group>"; };
+		5A6ED9CC196D875200EC4C8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5A6ED9CE196D875200EC4C8B /* Color_CountdownTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Color_CountdownTests.m; sourceTree = "<group>"; };
+		5A6ED9D8196DB74D00EC4C8B /* ECTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECTViewController.h; sourceTree = "<group>"; };
+		5A6ED9D9196DB74D00EC4C8B /* ECTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECTViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A6ED9A3196D875100EC4C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6ED9AC196D875200EC4C8B /* CoreGraphics.framework in Frameworks */,
+				5A6ED9AE196D875200EC4C8B /* UIKit.framework in Frameworks */,
+				5A6ED9AA196D875200EC4C8B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A6ED9BE196D875200EC4C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6ED9C3196D875200EC4C8B /* XCTest.framework in Frameworks */,
+				5A6ED9C5196D875200EC4C8B /* UIKit.framework in Frameworks */,
+				5A6ED9C4196D875200EC4C8B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A6ED99D196D875100EC4C8B = {
+			isa = PBXGroup;
+			children = (
+				5A6ED9AF196D875200EC4C8B /* Color Countdown */,
+				5A6ED9C8196D875200EC4C8B /* Color CountdownTests */,
+				5A6ED9A8196D875100EC4C8B /* Frameworks */,
+				5A6ED9A7196D875100EC4C8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A6ED9A7196D875100EC4C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A6ED9A6196D875100EC4C8B /* Color Countdown.app */,
+				5A6ED9C1196D875200EC4C8B /* Color CountdownTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A6ED9A8196D875100EC4C8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A6ED9A9196D875100EC4C8B /* Foundation.framework */,
+				5A6ED9AB196D875200EC4C8B /* CoreGraphics.framework */,
+				5A6ED9AD196D875200EC4C8B /* UIKit.framework */,
+				5A6ED9C2196D875200EC4C8B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A6ED9AF196D875200EC4C8B /* Color Countdown */ = {
+			isa = PBXGroup;
+			children = (
+				5A6ED9B8196D875200EC4C8B /* ECTAppDelegate.h */,
+				5A6ED9B9196D875200EC4C8B /* ECTAppDelegate.m */,
+				5A6ED9D8196DB74D00EC4C8B /* ECTViewController.h */,
+				5A6ED9D9196DB74D00EC4C8B /* ECTViewController.m */,
+				5A6ED9BB196D875200EC4C8B /* Images.xcassets */,
+				5A6ED9B0196D875200EC4C8B /* Supporting Files */,
+			);
+			path = "Color Countdown";
+			sourceTree = "<group>";
+		};
+		5A6ED9B0196D875200EC4C8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A6ED9B1196D875200EC4C8B /* Color Countdown-Info.plist */,
+				5A6ED9B2196D875200EC4C8B /* InfoPlist.strings */,
+				5A6ED9B5196D875200EC4C8B /* main.m */,
+				5A6ED9B7196D875200EC4C8B /* Color Countdown-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A6ED9C8196D875200EC4C8B /* Color CountdownTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A6ED9CE196D875200EC4C8B /* Color_CountdownTests.m */,
+				5A6ED9C9196D875200EC4C8B /* Supporting Files */,
+			);
+			path = "Color CountdownTests";
+			sourceTree = "<group>";
+		};
+		5A6ED9C9196D875200EC4C8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A6ED9CA196D875200EC4C8B /* Color CountdownTests-Info.plist */,
+				5A6ED9CB196D875200EC4C8B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A6ED9A5196D875100EC4C8B /* Color Countdown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A6ED9D2196D875200EC4C8B /* Build configuration list for PBXNativeTarget "Color Countdown" */;
+			buildPhases = (
+				5A6ED9A2196D875100EC4C8B /* Sources */,
+				5A6ED9A3196D875100EC4C8B /* Frameworks */,
+				5A6ED9A4196D875100EC4C8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Color Countdown";
+			productName = "Color Countdown";
+			productReference = 5A6ED9A6196D875100EC4C8B /* Color Countdown.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A6ED9C0196D875200EC4C8B /* Color CountdownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A6ED9D5196D875200EC4C8B /* Build configuration list for PBXNativeTarget "Color CountdownTests" */;
+			buildPhases = (
+				5A6ED9BD196D875200EC4C8B /* Sources */,
+				5A6ED9BE196D875200EC4C8B /* Frameworks */,
+				5A6ED9BF196D875200EC4C8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A6ED9C7196D875200EC4C8B /* PBXTargetDependency */,
+			);
+			name = "Color CountdownTests";
+			productName = "Color CountdownTests";
+			productReference = 5A6ED9C1196D875200EC4C8B /* Color CountdownTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A6ED99E196D875100EC4C8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ECT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = com.excepapps;
+				TargetAttributes = {
+					5A6ED9C0196D875200EC4C8B = {
+						TestTargetID = 5A6ED9A5196D875100EC4C8B;
+					};
+				};
+			};
+			buildConfigurationList = 5A6ED9A1196D875100EC4C8B /* Build configuration list for PBXProject "Color Countdown" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5A6ED99D196D875100EC4C8B;
+			productRefGroup = 5A6ED9A7196D875100EC4C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A6ED9A5196D875100EC4C8B /* Color Countdown */,
+				5A6ED9C0196D875200EC4C8B /* Color CountdownTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A6ED9A4196D875100EC4C8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6ED9B4196D875200EC4C8B /* InfoPlist.strings in Resources */,
+				5A6ED9BC196D875200EC4C8B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A6ED9BF196D875200EC4C8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6ED9CD196D875200EC4C8B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A6ED9A2196D875100EC4C8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6ED9DA196DB74D00EC4C8B /* ECTViewController.m in Sources */,
+				5A6ED9B6196D875200EC4C8B /* main.m in Sources */,
+				5A6ED9BA196D875200EC4C8B /* ECTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A6ED9BD196D875200EC4C8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6ED9CF196D875200EC4C8B /* Color_CountdownTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A6ED9C7196D875200EC4C8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A6ED9A5196D875100EC4C8B /* Color Countdown */;
+			targetProxy = 5A6ED9C6196D875200EC4C8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A6ED9B2196D875200EC4C8B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A6ED9B3196D875200EC4C8B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5A6ED9CB196D875200EC4C8B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A6ED9CC196D875200EC4C8B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A6ED9D0196D875200EC4C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A6ED9D1196D875200EC4C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A6ED9D3196D875200EC4C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Color Countdown/Color Countdown-Prefix.pch";
+				INFOPLIST_FILE = "Color Countdown/Color Countdown-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5A6ED9D4196D875200EC4C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Color Countdown/Color Countdown-Prefix.pch";
+				INFOPLIST_FILE = "Color Countdown/Color Countdown-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5A6ED9D6196D875200EC4C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Color Countdown.app/Color Countdown";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Color Countdown/Color Countdown-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Color CountdownTests/Color CountdownTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5A6ED9D7196D875200EC4C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Color Countdown.app/Color Countdown";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Color Countdown/Color Countdown-Prefix.pch";
+				INFOPLIST_FILE = "Color CountdownTests/Color CountdownTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A6ED9A1196D875100EC4C8B /* Build configuration list for PBXProject "Color Countdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A6ED9D0196D875200EC4C8B /* Debug */,
+				5A6ED9D1196D875200EC4C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A6ED9D2196D875200EC4C8B /* Build configuration list for PBXNativeTarget "Color Countdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A6ED9D3196D875200EC4C8B /* Debug */,
+				5A6ED9D4196D875200EC4C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A6ED9D5196D875200EC4C8B /* Build configuration list for PBXNativeTarget "Color CountdownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A6ED9D6196D875200EC4C8B /* Debug */,
+				5A6ED9D7196D875200EC4C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A6ED99E196D875100EC4C8B /* Project object */;
+}
