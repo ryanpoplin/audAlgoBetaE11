@@ -7,6 +7,7 @@
 //
 
 #import "ECTAppDelegate.h"
+#import "ECTPerson.h"
 
 @implementation ECTAppDelegate
 
