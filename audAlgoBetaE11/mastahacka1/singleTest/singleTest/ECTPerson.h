@@ -10,6 +10,7 @@
 
 #import <Foundation/Foundation.h>
 
+// class methods and instance methods must be 'exposed' to the interface file of the class...
 // a custom class that is a blueprint for objects to be instantiated from...
 
 @interface ECTPerson : NSObject
@@ -18,6 +19,9 @@
 
 @property (nonatomic, copy) NSString *firstName;
 @property (nonatomic, copy) NSString *lastName;
+
+- (void) walkAtKilometersPerHour:(CGFloat)paramSpeedKilometersPerHour;
+- (void) runAt10KilometersPerHour;
 
 @end
 

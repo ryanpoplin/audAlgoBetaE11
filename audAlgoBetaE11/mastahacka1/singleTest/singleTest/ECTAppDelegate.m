@@ -12,9 +12,25 @@
 @implementation ECTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+
 {
-    // Override point for customization after application launch.
+    
+    ECTPerson *person = [[ECTPerson alloc] init];
+    
+    [person walkAtKilometersPerHour:3.0f];
+    [person runAt10KilometersPerHour];
+    // @interface error...
+    // [person singSong:nil loudly:YES];
+    
+    person.firstName = @"Ryan";
+    person.lastName = @"Poplin";
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
     return YES;
+
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

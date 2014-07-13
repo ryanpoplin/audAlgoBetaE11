@@ -117,10 +117,10 @@
 		5AAC06B619713DFC00352DC0 /* singleTest */ = {
 			isa = PBXGroup;
 			children = (
-				5AAC06BF19713DFC00352DC0 /* ECTAppDelegate.h */,
-				5AAC06C019713DFC00352DC0 /* ECTAppDelegate.m */,
 				5AAC06C219713DFC00352DC0 /* Main_iPhone.storyboard */,
 				5AAC06C519713DFC00352DC0 /* Main_iPad.storyboard */,
+				5AAC06BF19713DFC00352DC0 /* ECTAppDelegate.h */,
+				5AAC06C019713DFC00352DC0 /* ECTAppDelegate.m */,
 				5AAC06C819713DFC00352DC0 /* ECTViewController.h */,
 				5AAC06C919713DFC00352DC0 /* ECTViewController.m */,
 				5AAC06E8197204A400352DC0 /* ECTPerson.h */,
