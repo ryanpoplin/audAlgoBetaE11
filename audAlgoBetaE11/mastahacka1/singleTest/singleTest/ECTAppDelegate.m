@@ -24,6 +24,13 @@
     
     person.firstName = @"Ryan";
     person.lastName = @"Poplin";
+    person.currentHeight = 186.0f;
+    
+    if (person.currentHeight >= [ECTPerson minimumHeightInCentimeters] && person.currentHeight <= [ECTPerson maximumHeightInCentimeters]) {
+        NSLog(@"Height is normal...");
+    } else {
+        NSLog(@"Height is not normal...");
+    }
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];

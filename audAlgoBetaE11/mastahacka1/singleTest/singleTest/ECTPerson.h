@@ -17,11 +17,15 @@
 
 // properties of the class I.O.W., the object...
 
+// just fucking properties of an object...
 @property (nonatomic, copy) NSString *firstName;
 @property (nonatomic, copy) NSString *lastName;
+@property (nonatomic, assign) CGFloat currentHeight;
 
 - (void) walkAtKilometersPerHour:(CGFloat)paramSpeedKilometersPerHour;
 - (void) runAt10KilometersPerHour;
++ (CGFloat) maximumHeightInCentimeters;
++ (CGFloat) minimumHeightInCentimeters;
 
 @end
 
