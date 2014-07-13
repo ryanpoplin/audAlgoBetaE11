@@ -23,6 +23,7 @@
 		5AAC06DD19713DFD00352DC0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AAC06DB19713DFD00352DC0 /* InfoPlist.strings */; };
 		5AAC06DF19713DFD00352DC0 /* singleTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AAC06DE19713DFD00352DC0 /* singleTestTests.m */; };
 		5AAC06EA197204A400352DC0 /* ECTPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AAC06E9197204A400352DC0 /* ECTPerson.m */; };
+		5AAC06F119730AF200352DC0 /* ECTJaguar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AAC06F019730AF200352DC0 /* ECTJaguar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,9 @@
 		5AAC06DE19713DFD00352DC0 /* singleTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = singleTestTests.m; sourceTree = "<group>"; };
 		5AAC06E8197204A400352DC0 /* ECTPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECTPerson.h; sourceTree = "<group>"; };
 		5AAC06E9197204A400352DC0 /* ECTPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECTPerson.m; sourceTree = "<group>"; };
+		5AAC06EB1973090E00352DC0 /* ECTCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECTCar.h; sourceTree = "<group>"; };
+		5AAC06EF19730AF200352DC0 /* ECTJaguar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECTJaguar.h; sourceTree = "<group>"; };
+		5AAC06F019730AF200352DC0 /* ECTJaguar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECTJaguar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,10 +125,9 @@
 				5AAC06C519713DFC00352DC0 /* Main_iPad.storyboard */,
 				5AAC06BF19713DFC00352DC0 /* ECTAppDelegate.h */,
 				5AAC06C019713DFC00352DC0 /* ECTAppDelegate.m */,
-				5AAC06C819713DFC00352DC0 /* ECTViewController.h */,
-				5AAC06C919713DFC00352DC0 /* ECTViewController.m */,
-				5AAC06E8197204A400352DC0 /* ECTPerson.h */,
-				5AAC06E9197204A400352DC0 /* ECTPerson.m */,
+				5AAC06EC1973091400352DC0 /* protocols */,
+				5AAC06ED1973092700352DC0 /* ViewControllers */,
+				5AAC06EE1973095D00352DC0 /* CustomClasses */,
 				5AAC06CB19713DFC00352DC0 /* Images.xcassets */,
 				5AAC06B719713DFC00352DC0 /* Supporting Files */,
 			);
@@ -158,6 +161,34 @@
 				5AAC06DB19713DFD00352DC0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AAC06EC1973091400352DC0 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				5AAC06EB1973090E00352DC0 /* ECTCar.h */,
+			);
+			name = protocols;
+			sourceTree = "<group>";
+		};
+		5AAC06ED1973092700352DC0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5AAC06C819713DFC00352DC0 /* ECTViewController.h */,
+				5AAC06C919713DFC00352DC0 /* ECTViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5AAC06EE1973095D00352DC0 /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				5AAC06EF19730AF200352DC0 /* ECTJaguar.h */,
+				5AAC06F019730AF200352DC0 /* ECTJaguar.m */,
+				5AAC06E8197204A400352DC0 /* ECTPerson.h */,
+				5AAC06E9197204A400352DC0 /* ECTPerson.m */,
+			);
+			name = CustomClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +293,7 @@
 				5AAC06CA19713DFC00352DC0 /* ECTViewController.m in Sources */,
 				5AAC06EA197204A400352DC0 /* ECTPerson.m in Sources */,
 				5AAC06BD19713DFC00352DC0 /* main.m in Sources */,
+				5AAC06F119730AF200352DC0 /* ECTJaguar.m in Sources */,
 				5AAC06C119713DFC00352DC0 /* ECTAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
