@@ -1,3 +1,5 @@
+
+
 //
 //  ECTAppDelegate.m
 //  singleTest
@@ -14,6 +16,14 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 
 {
+    
+    NSArray *stringArray = @[@"String 1",@"String 2",@"String 3"];
+    // __unused is a macro, I.O.W. it tells the compiler to shut the fuck up about me not using a declared and perhaps assigned variable...
+    __unused NSString *firstString = stringArray[0];
+    __unused NSString *secondString = stringArray[1];
+    __unused NSString *thridString = stringArray[2];
+    
+    
     
     ECTPerson *person = [[ECTPerson alloc] init];
     
@@ -68,3 +78,4 @@
 }
 
 @end
+
