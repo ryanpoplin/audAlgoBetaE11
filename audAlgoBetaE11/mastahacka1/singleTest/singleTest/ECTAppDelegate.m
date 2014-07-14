@@ -129,6 +129,28 @@
 //    
 //    NSLog(@"%@", mutableClientInfo);
     
+//    NSSet *shoppingList = [[NSSet alloc] initWithObjects: @"client", @"client", nil];
+//    
+//    NSLog(@"%@", shoppingList);
+    
+//    NSSet *shoppingList = [[NSSet alloc] initWithObjects:@"client", @"client", nil];
+//    
+//    NSMutableSet *mutableSetList = [NSMutableSet setWithSet:shoppingList];
+//    
+//    [mutableSetList addObject:@"words"];
+//    [mutableSetList removeObject:@"client"];
+//    
+//    NSLog(@"%@", mutableSetList);
+    
+    // USE NSORDEREDSET FOR ALL OF THE SENTENCES AND THE STANDARD WORDS AND DATES ARRAYS/DICTIONARIES/SETS, WHATEVER IS THE MOST USEFUL...
+    
+    // HAVE TWO NSORDEREDSETS...
+    // UIOBJECTS WILL HAVE ACTIONS AND OUTLETS IN THE GRID SYSTEM THAT WILL CONNECT WITH THESE NSORDEREDSETS AND PROVIDE ORDERED COLLECTIONS OF THE DATES AND SENTENCES IN THE FORM OF ECTWORDOBJECT...
+    
+//    NSOrderedSet *collectionOfWords = [NSOrderedSet orderedSetWithObjects:@"I", @"want", @"coffee", nil];
+//    
+//    NSLog(@"%@", collectionOfWords);
+    
     
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
