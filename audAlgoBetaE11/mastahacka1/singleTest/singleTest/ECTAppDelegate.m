@@ -11,6 +11,8 @@
 #import "ECTAppDelegate.h"
 #import "ECTPerson.h"
 
+// just fucking instructions...
+
 @implementation ECTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
