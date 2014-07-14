@@ -1,8 +1,18 @@
 
 
+// A BIZ THAT JUST WORKS...
+
+// MONEY IS BIZ...
+
+// CAN SPARTANBURG OFFER US SOMETHING FOR DOING STUFF HERE?
+
 /* WHAT WILL MAKE THIS SDK AN ASSET FOR ALL AAC'S SO THAT THEY'D NOT EVEN BOTHER IMPLEMENTING THE SDK/FUNCTIONALITY ON THEIR OWN... */
 
 /* IMPLEMENT THE GRID AND CONFIG STD. METHODS AND PROPS. THAT WILL BE SAVED ON THE DEVICE AND BE STORED... */
+
+// TALK TO RESEARCH (UNIVERSITIES...) GROUPS ABOUT JOINING THEM, AND WE CAN GET PAID FROM THEM FOR SERVICES LINKED TO RESEARCH...
+
+// IF GRANTS ARE NOT GOING TO HAPPEN FOR A BIT, WHAT'S OUR BEST BET FOR FUNDING B4 PROFITS/PRODUCTS?
 
 //
 
@@ -98,6 +108,26 @@
 //    
 //    NSLog(@"Full name: %@ %@", firstName, lastName);
 //    NSLog(@"Age = %@ Sex = %@", age, sex);
+    
+//    NSDictionary *clientWords = @{@"word": @"I",
+//                                  @"date": [[NSDate alloc] init]};
+//    
+//    NSLog(@"%@", clientWords);
+//    
+//    NSString *word = clientWords[@"word"];
+//    NSDate *date = clientWords[@"date"];
+//    
+//    NSLog(@"Start...");
+//    NSLog(@"Word: %@\n Date: %@\n", word, date);
+//    NSLog(@"End...");
+//    
+//    NSMutableDictionary *mutableClientInfo = [[NSMutableDictionary alloc] initWithDictionary:clientWords];
+//    
+//    mutableClientInfo[@"word"] = @"want";
+//    
+//    NSLog(@"Word: %@", mutableClientInfo[@"word"]);
+//    
+//    NSLog(@"%@", mutableClientInfo);
     
     
     

@@ -12,6 +12,8 @@
 
 // our word object protocol fail safe...
 
+// define the props. && meths. for the ECTWordObject...
+
 @property (nonatomic, copy) NSDate *currentDate;
 @property (nonatomic, copy) NSString *currentWord;
 
