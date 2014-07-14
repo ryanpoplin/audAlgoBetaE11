@@ -24,6 +24,7 @@
 		5AAC06DF19713DFD00352DC0 /* singleTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AAC06DE19713DFD00352DC0 /* singleTestTests.m */; };
 		5AAC06EA197204A400352DC0 /* ECTPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AAC06E9197204A400352DC0 /* ECTPerson.m */; };
 		5AAC06F119730AF200352DC0 /* ECTJaguar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AAC06F019730AF200352DC0 /* ECTJaguar.m */; };
+		5AAC06F51974173C00352DC0 /* ECTWordObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AAC06F41974173C00352DC0 /* ECTWordObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,9 @@
 		5AAC06EB1973090E00352DC0 /* ECTCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECTCar.h; sourceTree = "<group>"; };
 		5AAC06EF19730AF200352DC0 /* ECTJaguar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECTJaguar.h; sourceTree = "<group>"; };
 		5AAC06F019730AF200352DC0 /* ECTJaguar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECTJaguar.m; sourceTree = "<group>"; };
+		5AAC06F21974155D00352DC0 /* ECTWordObjectProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECTWordObjectProtocol.h; sourceTree = "<group>"; };
+		5AAC06F31974173C00352DC0 /* ECTWordObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECTWordObject.h; sourceTree = "<group>"; };
+		5AAC06F41974173C00352DC0 /* ECTWordObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECTWordObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +170,7 @@
 		5AAC06EC1973091400352DC0 /* protocols */ = {
 			isa = PBXGroup;
 			children = (
+				5AAC06F21974155D00352DC0 /* ECTWordObjectProtocol.h */,
 				5AAC06EB1973090E00352DC0 /* ECTCar.h */,
 			);
 			name = protocols;
@@ -183,6 +188,8 @@
 		5AAC06EE1973095D00352DC0 /* CustomClasses */ = {
 			isa = PBXGroup;
 			children = (
+				5AAC06F31974173C00352DC0 /* ECTWordObject.h */,
+				5AAC06F41974173C00352DC0 /* ECTWordObject.m */,
 				5AAC06EF19730AF200352DC0 /* ECTJaguar.h */,
 				5AAC06F019730AF200352DC0 /* ECTJaguar.m */,
 				5AAC06E8197204A400352DC0 /* ECTPerson.h */,
@@ -291,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AAC06CA19713DFC00352DC0 /* ECTViewController.m in Sources */,
+				5AAC06F51974173C00352DC0 /* ECTWordObject.m in Sources */,
 				5AAC06EA197204A400352DC0 /* ECTPerson.m in Sources */,
 				5AAC06BD19713DFC00352DC0 /* main.m in Sources */,
 				5AAC06F119730AF200352DC0 /* ECTJaguar.m in Sources */,

@@ -1,5 +1,11 @@
 
 
+/* WHAT WILL MAKE THIS SDK AN ASSET FOR ALL AAC'S SO THAT THEY'D NOT EVEN BOTHER IMPLEMENTING THE SDK/FUNCTIONALITY ON THEIR OWN... */
+
+/* IMPLEMENT THE GRID AND CONFIG STD. METHODS AND PROPS. THAT WILL BE SAVED ON THE DEVICE AND BE STORED... */
+
+//
+
 //
 //  ECTAppDelegate.m
 //  singleTest
@@ -19,30 +25,81 @@
 
 {
     
-    NSArray *stringArray = @[@"String 1",@"String 2",@"String 3"];
+    /*
+     
+     IMPLEMENT THE GRID, AND CONFIG. THE FILE STURCTURE/CORE DATA/PARSE/ICLOUD/...
+     
+    */
+    
+    // immutable array...
+    
+    // NSArray *stringArray = @[@"String 1",@"String 2",@"String 3"];
     // __unused is a macro, I.O.W. it tells the compiler to shut the fuck up about me not using a declared and perhaps assigned variable...
-    __unused NSString *firstString = stringArray[0];
-    __unused NSString *secondString = stringArray[1];
-    __unused NSString *thridString = stringArray[2];
+//    __unused NSString *firstString = stringArray[0];
+//    __unused NSString *secondString = stringArray[1];
+//    __unused NSString *thridString = stringArray[2];
     
+    // mutable array...
     
+//    NSString *testString1 = @"I";
+//    NSString *testString2 = @"want";
+//    NSString *testString3 = @"ball";
     
-    ECTPerson *person = [[ECTPerson alloc] init];
+    // an array of objects...
     
-    [person walkAtKilometersPerHour:3.0f];
-    [person runAt10KilometersPerHour];
+    // an example of the sentence array to be saved, read, deleted and stored...
+    // NSArray *immutableArray = @[testString1,testString2,testString3];
+    
+    // NSLog(@"%@", immutableArray);
+    
+    // NSMutableArray *mutableArray = [[NSMutableArray alloc] initWithArray:immutableArray];
+    
+    // NSLog(@"%@", mutableArray);
+    
+//    for (int i = 0; i < [mutableArray count]; i++) {
+//        NSLog(@"%@ looped...", mutableArray[i]);
+//    }
+    
+//    [mutableArray exchangeObjectAtIndex:0 withObjectAtIndex:1];
+//    [mutableArray removeObjectAtIndex:1];
+//    [mutableArray setObject:testString1 atIndexedSubscript:0];
+//    
+//    NSLog(@"Immutable array = %@\n", immutableArray);
+//    NSLog(@"Mutable array = %@\n", mutableArray);
+    
+    // ECTPerson *person = [[ECTPerson alloc] init];
+    
+    // [person walkAtKilometersPerHour:3.0f];
+    // [person runAt10KilometersPerHour];
     // @interface error...
     // [person singSong:nil loudly:YES];
     
-    person.firstName = @"Ryan";
-    person.lastName = @"Poplin";
-    person.currentHeight = 186.0f;
+    // example of structure...
     
-    if (person.currentHeight >= [ECTPerson minimumHeightInCentimeters] && person.currentHeight <= [ECTPerson maximumHeightInCentimeters]) {
-        NSLog(@"Height is normal...");
-    } else {
-        NSLog(@"Height is not normal...");
-    }
+//    person.firstName = @"Ryan";
+//    person.lastName = @"Poplin";
+//    person.currentHeight = 186.0f;
+//    
+//    if (person.currentHeight >= [ECTPerson minimumHeightInCentimeters] && person.currentHeight <= [ECTPerson maximumHeightInCentimeters]) {
+//        NSLog(@"%@ %@'s height is normal...\n", person.firstName, person.lastName);
+//    } else {
+//        NSLog(@"Height is not normal...\n");
+//    }
+    
+//    NSDictionary *personInformation = @{@"firstName": @"Mark",
+//                                        @"lastName": @"Tremonti",
+//                                        @"age": @30,
+//                                        @"sex": @"Male"};
+//    
+//    NSString *firstName = personInformation[@"firstName"];
+//    NSString *lastName = personInformation[@"lastName"];
+//    NSNumber *age = personInformation[@"age"];
+//    NSString *sex = personInformation[@"sex"];
+//    
+//    NSLog(@"Full name: %@ %@", firstName, lastName);
+//    NSLog(@"Age = %@ Sex = %@", age, sex);
+    
+    
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
