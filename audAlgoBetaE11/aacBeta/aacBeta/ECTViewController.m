@@ -1,3 +1,5 @@
+
+
 //
 //  ECTViewController.m
 //  aacBeta
@@ -19,14 +21,14 @@ static NSString *kCollectionViewCellIdentifier = @"Cells";
 @implementation ECTViewController
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
-    return 12;
+    return 3;
 }
 
 - (NSArray *) allSectionColors{
     static NSArray *allSectionColors = nil;
     if (allSectionColors == nil) {
         // add a custom RGB for borders and no background colors...
-        allSectionColors = @[[UIColor whiteColor]/*,[UIColor greenColor],[UIColor blueColor]*/];
+        allSectionColors = @[[UIColor whiteColor],[UIColor whiteColor],[UIColor whiteColor]];
     }
     return allSectionColors;
 }
@@ -44,8 +46,8 @@ static NSString *kCollectionViewCellIdentifier = @"Cells";
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:kCollectionViewCellIdentifier forIndexPath:indexPath];
     cell.backgroundColor = [self allSectionColors][indexPath.section];
     
-    [[cell layer] setBorderWidth:0.5f];
-    [[cell layer] setBorderColor:[UIColor redColor].CGColor];
+    [[cell layer] setBorderWidth:2.0f];
+    [[cell layer] setBorderColor:[UIColor blueColor].CGColor];
     
     return cell;
 
@@ -89,3 +91,4 @@ static NSString *kCollectionViewCellIdentifier = @"Cells";
 */
 
 @end
+
