@@ -20,6 +20,7 @@
 		5AAC07261974913100352DC0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AAC07241974913100352DC0 /* InfoPlist.strings */; };
 		5AAC07281974913100352DC0 /* aacBetaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AAC07271974913100352DC0 /* aacBetaTests.m */; };
 		5AAC0733197491CB00352DC0 /* ECTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AAC0732197491CB00352DC0 /* ECTViewController.m */; };
+		5AAC07351974CD2C00352DC0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AAC07341974CD2C00352DC0 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		5AAC07271974913100352DC0 /* aacBetaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aacBetaTests.m; sourceTree = "<group>"; };
 		5AAC0731197491CB00352DC0 /* ECTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECTViewController.h; sourceTree = "<group>"; };
 		5AAC0732197491CB00352DC0 /* ECTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECTViewController.m; sourceTree = "<group>"; };
+		5AAC07341974CD2C00352DC0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AAC07351974CD2C00352DC0 /* QuartzCore.framework in Frameworks */,
 				5AAC07051974913100352DC0 /* CoreGraphics.framework in Frameworks */,
 				5AAC07071974913100352DC0 /* UIKit.framework in Frameworks */,
 				5AAC07031974913100352DC0 /* Foundation.framework in Frameworks */,
@@ -99,6 +102,7 @@
 		5AAC07011974913100352DC0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5AAC07341974CD2C00352DC0 /* QuartzCore.framework */,
 				5AAC07021974913100352DC0 /* Foundation.framework */,
 				5AAC07041974913100352DC0 /* CoreGraphics.framework */,
 				5AAC07061974913100352DC0 /* UIKit.framework */,

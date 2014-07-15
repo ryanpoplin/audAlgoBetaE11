@@ -10,9 +10,46 @@
 
 @interface ECTViewController ()
 
+
 @end
 
+static NSString *kCollectionViewCellIdentifier = @"Cells";
+
 @implementation ECTViewController
+
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
+    return 12;
+}
+
+- (NSArray *) allSectionColors{
+    static NSArray *allSectionColors = nil;
+    if (allSectionColors == nil) {
+        // add a custom RGB for borders and no background colors...
+        allSectionColors = @[[UIColor grayColor]/*,[UIColor greenColor],[UIColor blueColor]*/];
+    }
+    return allSectionColors;
+}
+
+- (instancetype) initWithCollectionViewLayout:(UICollectionViewFlowLayout *)layout{
+    self = [super initWithCollectionViewLayout:layout];
+    if (self != nil) {
+        [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:kCollectionViewCellIdentifier];
+    }
+    return self;
+}
+
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
+    
+    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:kCollectionViewCellIdentifier forIndexPath:indexPath];
+    cell.backgroundColor = [self allSectionColors][indexPath.section];
+    
+    return cell;
+
+}
+
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView{
+    return [self allSectionColors].count;
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,6 +63,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.collectionView.backgroundColor = [UIColor whiteColor];
     // Do any additional setup after loading the view.
 }
 
