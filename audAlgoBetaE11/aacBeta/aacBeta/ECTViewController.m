@@ -8,11 +8,13 @@
 //  Copyright (c) 2014 com.excepapps. All rights reserved.
 //
 
+// As a software writer, I want to build applications and services, so that children with disabilities can succeed.  
+
 #import "ECTViewController.h"
 
 @interface ECTViewController ()
 
-
+// implement the interface here...
 
 @end
 
