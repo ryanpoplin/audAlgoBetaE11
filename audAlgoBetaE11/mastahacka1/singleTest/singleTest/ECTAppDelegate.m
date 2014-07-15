@@ -151,6 +151,21 @@
 //    
 //    NSLog(@"%@", collectionOfWords);
     
+    // object subscripting...
+    
+    NSString *const kFirstWordKey = @"firstWord";
+    NSString *const kSecondWordKey = @"lastName";
+    
+    NSDictionary *dictionary = @{kFirstWordKey:@"I",kSecondWordKey:@"want"};
+    
+    __unused NSString *firstWord = dictionary[kFirstWordKey];
+    __unused NSString *secondWord = dictionary[kSecondWordKey];
+    
+    NSArray *array = @[@"Ryan", @"Poplin"];
+    
+    __unused NSString *firstItem = array[0];
+    __unused NSString *secondItem = array[1];
+    
     
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];

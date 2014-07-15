@@ -15,8 +15,13 @@
 
 @interface ECTWordObject : NSObject <ECTWordObjectProtocol>
 
-@property (nonatomic, copy) NSDate *currentDate;
-@property (nonatomic, copy) NSString *currentWord;
+// @property (nonatomic, copy) NSDate *currentDate;
+// @property (nonatomic, copy) NSString *currentWord;
+
+//extern NSString *const firstName;
+//extern NSString *const lastName;
+
+
 
 @end
 
