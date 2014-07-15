@@ -1,3 +1,5 @@
+
+
 //
 //  ECTAppDelegate.m
 //  aacBeta
@@ -5,6 +7,13 @@
 //  Created by Byrdann Fox on 7/14/14.
 //  Copyright (c) 2014 com.excepapps. All rights reserved.
 //
+
+//
+// Objective-C and Swift, dashboards for graphing, sentences and words...
+// Power great products...
+//
+
+// SDK IMPLEMENTATION...
 
 #import "ECTAppDelegate.h"
 // ECTViewController Class has to be imported here...
